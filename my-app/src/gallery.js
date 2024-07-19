@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Tour from './Tour';
+import Tour from './tour';
 
 const TourList = () => {
     const [tours, setTours] = useState([]);
@@ -9,7 +9,7 @@ const TourList = () => {
         const fetchTours = async () => {
             setLoading(true);
             try {
-                const response = await fetch('https://api.example.com/tours'); // Replace with your API URL
+                const response = await fetch('https://www.course-api.com/react-tours-project'); // Replace with your API URL
                 const data = await response.json();
                 setTours(data);
                 setLoading(false);
