@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.tour {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.tour img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tour-info {
+    text-align: left;
+}
+
+.tour-info h4 {
+    margin: 10px 0;
+}
+
+.tour-price {
+    color: #ff6347;
+}
+
+button {
+    background: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button.delete-btn {
+    background: #ff4c4c;
+}
